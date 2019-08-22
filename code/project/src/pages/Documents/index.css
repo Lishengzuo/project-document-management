@@ -1,0 +1,12 @@
+p, div {
+	margin: 0;
+	padding: 0;
+}
+
+.documents-container {
+	width: 98%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+

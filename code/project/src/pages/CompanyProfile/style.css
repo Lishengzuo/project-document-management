@@ -1,0 +1,99 @@
+.companyProfile-header{
+  line-height: 34px;
+  background: rgb(231,246,257);
+  color: rgb(61,176,227);
+  padding: 12px;
+  font-weight: bold;
+}
+.companyProfile-header-h1{
+  color: black;
+  font-size: 18px;
+  border-left: 8px solid rgb(58, 180, 254);
+  padding-left: 8px;
+}
+.companyProfile-header .companyProfile-header-tab{
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.companyProfile-header .companyProfile-header-tab div{
+  padding: 0 12px 0 12px;
+  cursor: pointer;
+}
+.companyProfile-header .companyProfile-header-tab div.active{
+  border-bottom: 3px solid;
+}
+.companyProfile-content-chunk-ct{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.companyProfile-content-develop .companyProfile-content-chunk{
+  background: rgb(248, 248, 248);
+  width:300px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.companyProfile-content-develop .image-ct{
+  margin: 20px;
+}
+.companyProfile-content-ct{
+  margin:28px;
+}
+.companyProfile-content-worker .personMessage-ct{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.companyProfile-content-worker .personMessage-ct .person-card-ct{
+  width: 200px;
+  position: relative;
+  background: rgb(238, 238, 238);
+  border-radius: 5px;
+  margin: 10px;
+}
+.companyProfile-content-worker .personMessage-ct .person-card-ct .card-position{
+  position: absolute;
+  right: 20px;
+  background: rgb(118, 204, 253);
+  color: white;
+  padding: 1px 12px;
+  border-radius: 6px;
+  font-size: 10px;
+  top: 10px;
+}
+.companyProfile-content-worker .personMessage-ct .person-card-ct .avatar-ct{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 50%;
+  background: white;
+}
+
+.companyProfile-content-worker .personMessage-ct .person-card-ct .name{
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(90, 90, 90);
+  margin: 20px;
+
+}
+
+.companyProfile-content-worker .personMessage-ct .person-card-ct .detailPosition{
+  margin: 20px;
+  font-size: 12px;
+}
+.companyProfile-content-worker .personMessage-ct .person-card-ct .workYears{
+  margin: 20px;
+  font-size: 12px;
+
+}
+.companyProfile-content-worker .personMessage-ct .person-card-ct .workContent{
+  margin: 20px;
+  font-size: 12px;
+
+}
+
+
+
