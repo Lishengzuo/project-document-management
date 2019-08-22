@@ -1,0 +1,34 @@
+
+.solution-card-ct{
+  display: flex;
+  margin: 12px;
+  border: 1px solid rgb(222, 222, 222);
+
+}
+
+#solution-image{
+  width: 150px;
+  margin: 20px;
+}
+
+.solution-card-ct .solution-text-ct{
+  margin: 20px 20px 20px 0;
+}
+
+.solution-card-ct .solution-title{
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+}
+
+.solution-card-ct .solution-time{
+  font-weight: bold;
+  color: rgb(171, 171, 171);
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.solution-card-ct .solution-content{
+  color: black;
+  font-size: 14px;
+}
